@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+         https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.qoobot</groupId>
+        <artifactId>openscm</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>openscm-admin</artifactId>
+    <name>openscm-admin</name>
+    <description>OpenSCM 管理后台启动模块</description>
+    <packaging>jar</packaging>
+
+    <dependencies>
+        <!-- OpenSCM Common -->
+        <dependency>
+            <groupId>com.qoobot</groupId>
+            <artifactId>openscm-common</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <!-- OpenSCM System -->
+        <dependency>
+            <groupId>com.qoobot</groupId>
+            <artifactId>openscm-system</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <!-- OpenSCM Supplier -->
+        <dependency>
+            <groupId>com.qoobot</groupId>
+            <artifactId>openscm-supplier</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

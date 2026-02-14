@@ -1,0 +1,31 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: openscm-admin
+
+# JWT 配置
+jwt:
+  secret: OpenSCM2024SecretKeyForJWTTokenGenerationSecure123456
+  expiration: 86400000
+  header: Authorization
+  prefix: Bearer
+
+# 文件上传配置
+file:
+  upload:
+    path: ./uploads
+    prefix: /files
+    max-size: 10MB
+
+# MyBatis-Plus 配置
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      logic-delete-field: delFlag
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+      id-type: auto

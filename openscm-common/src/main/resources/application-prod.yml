@@ -1,0 +1,15 @@
+# 生产环境配置
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/${MYSQL_DATABASE:openscm}?useUnicode=true&characterEncoding=utf8&useSSL=true&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+    username: ${MYSQL_USERNAME:openscm}
+    password: ${MYSQL_PASSWORD:openscm}
+
+logging:
+  level:
+    root: WARN
+    com.qoobot.openscm: INFO

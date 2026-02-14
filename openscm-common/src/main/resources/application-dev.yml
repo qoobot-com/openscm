@@ -1,0 +1,16 @@
+# 开发环境配置
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/openscm?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+    username: root
+    password: root
+
+logging:
+  level:
+    root: INFO
+    com.qoobot.openscm: DEBUG
+    com.baomidou.mybatisplus: DEBUG
