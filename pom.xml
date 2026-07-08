@@ -21,7 +21,7 @@
 
     <name>openscm</name>
     <description>openscm</description>
-    <url>https://github.com/qoobot-com/openscm</url>
+    <url>https://github.com/qoobots/openscm</url>
 
     <!-- 模块声明 -->
     <modules>
@@ -553,7 +553,7 @@
         <developer>
             <id>qoobot</id>
             <name>Qoobot Team</name>
-            <email>dev@qoobot.com</email>
+            <email>hello@qoobot.com</email>
             <organization>Qoobot</organization>
             <organizationUrl>https://www.qoobot.com</organizationUrl>
             <roles>
@@ -576,9 +576,9 @@
 
     <!-- SCM 信息 -->
     <scm>
-        <connection>scm:git:git://github.com/qoobot-com/openscm.git</connection>
+        <connection>scm:git:git://github.com/qoobots/openscm.git</connection>
         <developerConnection>scm:git:ssh://github.com:qoobot/openscm.git</developerConnection>
-        <url>https://github.com/qoobot-com/openscm/tree/main</url>
+        <url>https://github.com/qoobots/openscm/tree/main</url>
         <tag>HEAD</tag>
     </scm>
 
@@ -603,13 +603,13 @@
     <!-- 问题追踪 -->
     <issueManagement>
         <system>GitHub Issues</system>
-        <url>https://github.com/qoobot-com/openscm/issues</url>
+        <url>https://github.com/qoobots/openscm/issues</url>
     </issueManagement>
 
     <!-- 持续集成 -->
     <ciManagement>
         <system>GitHub Actions</system>
-        <url>https://github.com/qoobot-com/openscm/actions</url>
+        <url>https://github.com/qoobots/openscm/actions</url>
     </ciManagement>
 
 </project>

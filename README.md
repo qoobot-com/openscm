@@ -514,9 +514,9 @@ java -jar openscm-admin/target/openscm-admin-1.0.0-SNAPSHOT.jar
 
 ## 联系方式
 
-- 项目地址: https://github.com/qoobot-com/openscm
-- 问题反馈: https://github.com/qoobot-com/openscm/issues
-- 邮箱: dev@qoobot.com
+- 项目地址: https://github.com/qoobots/openscm
+- 问题反馈: https://github.com/qoobots/openscm/issues
+- 邮箱: hello@qoobot.com
 
 ## 致谢
 

@@ -25,8 +25,8 @@ public class OpenApiConfig {
                         .version("1.0.0")
                         .contact(new Contact()
                                 .name("OpenSCM Team")
-                                .email("dev@qoobot.com")
-                                .url("https://github.com/qoobot-com/openscm"))
+                                .email("hello@qoobot.com")
+                                .url("https://github.com/qoobots/openscm"))
                         .license(new License()
                                 .name("MIT License")
                                 .url("https://opensource.org/licenses/MIT")));
